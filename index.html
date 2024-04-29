@@ -10,7 +10,7 @@
 <body>
     <div id="app">
        <ul>
-            <li>{{mail}}</li>
+            <li v-for="currMail in mailCont" v-if="counterControl === 10">{{currMail}}</li>
        </ul>
     </div>
 
